@@ -6,7 +6,7 @@
 <body>
 <h1>Names</h1>
 <ul>
-    <g:each var="name" in="${remoteServiceRequestList}">
+    <g:each var="name" in="${stringList}">
         <li>${name}</li>
     </g:each>
 </ul>

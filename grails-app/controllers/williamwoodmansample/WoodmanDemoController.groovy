@@ -3,6 +3,6 @@ package williamwoodmansample
 class WoodmanDemoController {
 
     def index() {
-        [remoteServiceRequestList: ['will', 'marian']]
+        respond(['will', 'marian'])
     }
 }
