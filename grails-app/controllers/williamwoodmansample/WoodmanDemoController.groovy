@@ -3,6 +3,7 @@ package williamwoodmansample
 class WoodmanDemoController {
 
     def index() {
-        respond(['will', 'marian'])
+        def list = ["will", "marian"]
+        respond list
     }
 }
